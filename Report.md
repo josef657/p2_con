@@ -56,6 +56,8 @@ Environment solved in 350 episodes!	Average Score: 30.10
  ![Reward Plot]( https://github.com/josef657/p2_con/blob/master/DDPG.png?raw=true)
 
 ## Ideas for Future Work
--Fine tuning on the parameters can help us.
--Parallel agent training.
--I believe  that that Proximal Policy Optimization (PPO) and Distributed Distributional Deterministic Policy Gradients (D4PG) methods   can improve current results. Parallel agent training would in general improve environment interaction data gathering. Once experience is dumped in a replay buffer, we can effectively use neural networks for batch updating, but it is not clear how Python based environments could overcome the natural distributed and concurrency issues that arises in this kind of setups. 
+    -Fine tuning on the parameters can help us.
+
+    -Parallel agent training.
+
+    -I believe  that that Proximal Policy Optimization (PPO) and Distributed Distributional Deterministic Policy Gradients (D4PG) methods   can improve current results. Parallel agent training would in general improve environment interaction data gathering. Once experience is dumped in a replay buffer, we can effectively use neural networks for batch updating, but it is not clear how Python based environments could overcome the natural distributed and concurrency issues that arises in this kind of setups. 
