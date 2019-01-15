@@ -53,6 +53,7 @@ Episode 350	Score: 35.62	Average Score: 30.1062
 
 Environment solved in 350 episodes!	Average Score: 30.10
 
+ ![Reward Plot]( https://github.com/josef657/p2_con/blob/master/DDPG.png?raw=true)
 
 ## Ideas for Future Work
 -Fine tuning on the parameters can help us.
